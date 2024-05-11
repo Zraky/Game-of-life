@@ -15,7 +15,6 @@ clock = pygame.time.Clock()
 last_gen = pygame.time.get_ticks()
 run = True
 pygame.display.set_caption("Jeux de la vie")
-#icon = pygame.image.load('image/dinosaure/dinosaure.png')
 
 
 def spawn(grid, proba):
